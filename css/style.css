@@ -4,9 +4,10 @@
     
 }
 
-/* .debug{
+
+.debug{
     border:1px dashed red;
-} */
+}
 
 .clearfix::after{
     content: "";
@@ -21,6 +22,7 @@
     min-width: max-content;
     font-weight: 500;
     position:fixed;
+    background-color:white;
    
     
 }
@@ -29,15 +31,14 @@
 
 }
 
-.
-
-ul{
-    padding-inline-start: 0;
+ul {
+    padding-inline-start:0px;
 }
+
 
 ul li{
     
-    width:20%;
+    
     list-style-type: none;
     display:inline;
     margin:0px 10px;
@@ -122,5 +123,19 @@ a{
     height: 100%;
 }
 
+.hv100{
+    height: 120vh;
+}
+
+.container{padding-top:80px;
+    height:400vh;
+    background-color:white;
+    
+}
+
+.first{
+    background-color:hsl(207deg 52% 81%);
+    
+}
 
 
