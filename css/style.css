@@ -74,8 +74,10 @@ a{
 .header-lateral ul li a.logo:hover, .header-lateral ul li a.btn:hover {
     border:none;}
 
-    .container{padding-top:80px;
-        height:400vh;
+   
+    .container{
+        padding-top:80px;
+        
         background-color:white;
         
         
@@ -85,9 +87,8 @@ a{
         background-color:hsl(207deg 52% 81%);
         padding:5% 10%;
         padding-bottom:0px;
-       
-        
     }
+    
     
    
 
@@ -127,8 +128,29 @@ a{
         right:0;
     }
     
-    
 
+    .second{
+        padding:5% 20%;
+    }
+
+    .second h1{
+        font-size:2em;
+        margin-bottom:20px;
+    }
+    
+    .tab-header{
+        padding:5%;
+    }
+    
+    .tab-cnt{
+        padding:5%;
+        
+        
+    }
+
+    .brd{
+        border:1px solid grey;
+    }
 
 
     
