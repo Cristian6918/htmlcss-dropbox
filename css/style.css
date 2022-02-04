@@ -1,12 +1,19 @@
 *{
     margin:0;
     box-sizing: border-box;
+    font-size:1.2rem;
+    
+    font-family: 'Open Sans', sans-serif;
     
 }
 
 
 .debug{
     border:1px dashed red;
+}
+
+.debug2{
+    border:1px dashed blue;
 }
 
 .clearfix::after{
@@ -23,6 +30,7 @@
     font-weight: 500;
     position:fixed;
     background-color:white;
+    z-index:99;
    
     
 }
@@ -31,7 +39,11 @@
 
 }
 
-ul {
+.header-lateral .left{
+    padding-inline-start:40px;
+}
+ .header-lateral .right{
+    padding-inline-end:40px;
     padding-inline-start:0px;
 }
 
@@ -62,6 +74,66 @@ a{
 .header-lateral ul li a.logo:hover, .header-lateral ul li a.btn:hover {
     border:none;}
 
+    .container{padding-top:80px;
+        height:400vh;
+        background-color:white;
+        
+        
+    }
+    
+    .first{
+        background-color:hsl(207deg 52% 81%);
+        padding:5% 10%;
+        padding-bottom:0px;
+       
+        
+    }
+    
+   
+
+    .first h1{
+        font-size:4.5rem;
+        margin-bottom:40px;
+    }
+
+    
+    .first div p{
+        margin-bottom:30px;
+    }
+
+    .btn:hover{
+        opacity:0.7;
+    }
+    
+    .first div a{
+        display: inline-block;
+        margin-bottom:20px;
+    }
+
+    .a-main{
+        padding:0px;
+    }
+    .a-main:hover{
+        color:white;
+    }
+
+    .fa-arrow-down{
+        display:block;
+        font-size:3rem;
+        margin-top:30px;
+    }
+
+    .jumbo{
+        right:0;
+    }
+    
+    
+
+
+
+    
+
+    
 
 
 
@@ -89,7 +161,7 @@ a{
 
 
 
-.center{text-align: center;}
+
 
 
 
@@ -97,21 +169,43 @@ a{
 
 
 /* utilities */
+.relative{
+    position:relative;
+}
+.absolute{
+    position:absolute;
+}
 
-/* widths */
+
 
 .inline{display:inline;}
-
+.in-block{
+    display:inline-block;
+}
+ /* widths */
 
 .w25{
     width:25%;
 }
+
+.w30{
+    width:30%;
+}
 .w40{
     width: 40%;
+}
+.w60{
+    width:60%;
+}
+.w70{
+    width:70%;
 }
 
 .w75{
     width:75%;
+}
+.w80{
+    width:80%;
 }
 
 .w100{
@@ -127,15 +221,17 @@ a{
     height: 120vh;
 }
 
-.container{padding-top:80px;
-    height:400vh;
-    background-color:white;
-    
+.center{text-align: center;}
+.left{
+    text-align:left;
+}
+.right{
+    text-align:right;
 }
 
-.first{
-    background-color:hsl(207deg 52% 81%);
-    
-}
+
+
+
+
 
 
