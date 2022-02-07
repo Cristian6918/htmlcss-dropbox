@@ -1,7 +1,7 @@
 *{
     margin:0;
     box-sizing: border-box;
-    font-size:1.2rem;
+    font-size:1rem;
     
     font-family: 'Open Sans', sans-serif;
     
@@ -14,6 +14,7 @@
 
 .debug2{
     border:1px dashed blue;
+    
 }
 
 .clearfix::after{
@@ -139,7 +140,9 @@ a{
     }
     
     .tab-header{
-        padding:5%;
+        padding:1em;
+        border-bottom:1px solid grey;
+        
     }
     
     .tab-cnt{
@@ -164,7 +167,8 @@ a{
     }
 
     .tab{
-        min-height:200vh;
+        min-height: 100vh;
+        height:110vh;
     }
 
 
@@ -213,6 +217,13 @@ a{
 
 .dettagli em{
     font-size:15px;
+}
+
+.pad0-L{
+    padding-left:0;
+}
+.pad0-R{
+    padding-right:0px;
 }
     
     
