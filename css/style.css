@@ -375,12 +375,20 @@ h2{
 }
 
 
-
 .teams-section-central{
-   
+   position: relative;
     width:40%;
+    padding-top: 30%;
+    
+}
+
+.teams-section-central-content{
+   position:absolute;
+    width:100%;
     padding: 5%;
-    box-sizing:border-box;
+    left:0;
+    top:0;
+    
 }
 
 .teams-section-central img{
@@ -414,6 +422,19 @@ h2{
     filter: invert(1);
 }
 
+.bottom-part-square{
+    padding:5% 20%;
+}
+.bottom-part-square a.btn{
+    border:none;
+    width:30%;
+    text-align:center;
+}
+.bottom-part-square h1{
+    width:40%;
+    font-size:2em;
+}
+
 /* background colors */
 .designit{
     background-color:hsl(113deg 39% 72%);
@@ -444,6 +465,9 @@ h2{
 .central-backround{
     background-color:hsl(0deg 0% 96%);
 }
+.bottom-background{
+    background-color: hsl(207deg 52% 81%);
+}
 
 .layover{
     height:100%;
@@ -454,18 +478,32 @@ h2{
     top:0;
 }
 
-.abc{
-    min-height: 50vh;
-    height:55vh;
+
+.ask{
+    height:2vh;
+    line-height: 2vh;
+    vertical-align: middle;
+    padding:2em 0 2em;
+    border-bottom:1px solid lightgrey;
+    border-top:1px solid lightgrey;
+}
+.ask h2{
+    font-size:1em;
 }
 
+.foot{
+    background-color: black;
+    color:white;
+    padding:10% 15% 15% 5%;
+}
 
-
-
-
-
-
-
-
-
-
+.foot .main-ul {
+    list-style-type: none;
+    display: inline;
+}
+.foot .main-ul {
+    margin-bottom:1em;
+    
+    
+    
+}
