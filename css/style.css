@@ -486,6 +486,7 @@ h2{
     padding:2em 0 2em;
     border-bottom:1px solid lightgrey;
     border-top:1px solid lightgrey;
+    
 }
 .ask h2{
     font-size:1em;
@@ -494,16 +495,41 @@ h2{
 .foot{
     background-color: black;
     color:white;
-    padding:10% 15% 15% 5%;
+    padding:5% 5%;
+    text-align: center;
+    margin-top:4em;
+   
 }
 
-.foot .main-ul {
+ 
+
+
+
+
+.foot ul{
+    display: inline-block;
     list-style-type: none;
-    display: inline;
+    margin:0 2em 1em;
+    text-align: left;
+    color:white;
+    text-decoration-color: white;
+    margin-bottom:4em;
 }
-.foot .main-ul {
+.foot ul li{
     margin-bottom:1em;
     
-    
-    
 }
+
+.foot ul li a{
+    color:white;
+}
+
+.foot ul li a:hover{
+    text-decoration: underline;
+}
+
+.foot ul li:first-child a{
+    Font-size:1.5em;
+}
+
+
