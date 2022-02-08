@@ -2,7 +2,7 @@
     margin:0;
     box-sizing: border-box;
     font-size:1rem;
-    
+    font-weight:600;
     font-family: 'Open Sans', sans-serif;
     
 }
@@ -314,7 +314,9 @@ h2{
 
 
 
-
+.block{
+    display: block;
+}
 .inline{display:inline;}
 .in-block{
     display:inline-block;
@@ -479,25 +481,37 @@ h2{
 }
 
 
-.ask{
-    height:2vh;
-    line-height: 2vh;
-    vertical-align: middle;
-    padding:2em 0 2em;
-    border-bottom:1px solid lightgrey;
-    border-top:1px solid lightgrey;
-    
+/* ask  */
+.dom{
+    width:100%;  
+    padding:2em 0;
+    border-bottom:1px solid lightgray;
 }
-.ask h2{
-    font-size:1em;
+.risp{
+    display: none;
+}
+.dom:hover .risp{
+    display:inline-block;
+    padding: 1em 0;
 }
 
+.dom h2{
+    font-size:1.2em;
+}
+
+ 
+
+
+
+
+/* /ask */
 .foot{
     background-color: black;
     color:white;
-    padding:5% 5%;
-    text-align: center;
+    padding:5% 10%;
+    text-align: left;
     margin-top:4em;
+    padding-bottom:3em;
    
 }
 
@@ -507,14 +521,23 @@ h2{
 
 
 .foot ul{
+   
     display: inline-block;
     list-style-type: none;
-    margin:0 2em 1em;
+    padding:0 4em 2em 1em;
     text-align: left;
     color:white;
     text-decoration-color: white;
-    margin-bottom:4em;
+    padding-inline-start: 0;
+    margin-bottom:3em;
 }
+
+.foot ul:first-child{
+    border-bottom:1px solid lightgrey;
+}
+
+
+
 .foot ul li{
     margin-bottom:1em;
     
@@ -532,4 +555,14 @@ h2{
     Font-size:1.5em;
 }
 
+
+
+
+.language-select{
+    display:inline;
+    margin-top:2em;
+    border:none;
+    background-color: black;
+    color:lightgrey;
+}
 
